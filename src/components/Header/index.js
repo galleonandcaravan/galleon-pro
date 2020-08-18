@@ -5,8 +5,6 @@ import PropTypes from 'prop-types';
 import { HEADER_AUTH_LINKS, PAGES } from '../../constants';
 import HeaderMobile from '../HeaderMobile';
 import logo from './images/logo.png';
-import iconGcLite from './images/icon-gc-lite.svg';
-import iconGcPro from './images/icon-gc-pro.svg';
 
 import './styles.css';
 
@@ -82,15 +80,11 @@ class Header extends Component {
 
           <ul className="header-auth">
             <li className="header-auth__item">
-              <a href={HEADER_AUTH_LINKS.REGISTER}>
-                <img src={iconGcLite} alt='galcarlite.com' />
-              </a>
+              <a href={HEADER_AUTH_LINKS.REGISTER}>Register</a>
             </li>
 
             <li className="header-auth__item">
-              <a href={HEADER_AUTH_LINKS.LOGIN}>
-                <img src={iconGcPro} alt='galcarpro.com' />
-              </a>
+              <a href={HEADER_AUTH_LINKS.LOGIN}>Log In</a>
             </li>
           </ul>
         </div>

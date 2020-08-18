@@ -107,7 +107,10 @@ class Layout extends Component {
             <div>
               <Dots activePage={activePage} isHidden={dotsHidden} />
 
-              <Footer />
+              <Footer
+                popupVisibleBlock={popupVisibleBlock}
+                togglePopup={togglePopup}
+              />
             </div>
           </CSSTransition>
         </div>

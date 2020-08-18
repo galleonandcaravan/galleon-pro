@@ -4,8 +4,6 @@ import cn from 'classnames';
 import { CSSTransition } from 'react-transition-group';
 import { Portal } from 'react-portal';
 import { HEADER_AUTH_LINKS, PAGES } from '../../constants';
-import iconGcLite from './images/icon-gc-lite.svg';
-import iconGcPro from './images/icon-gc-pro.svg';
 
 import './styles.css';
 
@@ -110,14 +108,29 @@ class HeaderMobile extends Component {
 
                 <ul className="header-mobile-auth">
                   <li className="header-mobile-auth__item">
-                    <a href={HEADER_AUTH_LINKS.LOGIN}>
-                      <img src={iconGcPro} alt='galcarpro.com' />
+                    <a
+                      href={HEADER_AUTH_LINKS.REGISTER}
+                      onClick={this.toggleMenuVisible}
+                    >
+                      Register
                     </a>
                   </li>
                   <li className="header-mobile-auth__item">
-                    <a href={HEADER_AUTH_LINKS.REGISTER}>
-                      <img src={iconGcLite} alt='galcarlite.com' />
+                    <a
+                      href={HEADER_AUTH_LINKS.LOGIN}
+                      onClick={this.toggleMenuVisible}
+                    >
+                      Log In
                     </a>
+                  </li>
+                </ul>
+
+                <ul className="header-mobile-additional">
+                  <li
+                    className="header-mobile-additional__item"
+                    onClick={() => this.openModal('security')}
+                  >
+                    Security
                   </li>
                 </ul>
 

@@ -20,6 +20,6 @@ export const PAGES_IMAGES = {
 };
 
 export const HEADER_AUTH_LINKS = {
-  REGISTER: 'https://galcarlite.com',
-  LOGIN: 'https://galcarpro.com',
+  REGISTER: 'http://galcarlite.paydirect.io/registrations/corporates',
+  LOGIN: 'http://galcarlite.paydirect.io/',
 };

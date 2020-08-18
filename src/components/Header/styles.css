@@ -46,14 +46,15 @@
 }
 
 .header-auth__item {
+  font-size: 1.6rem;
   text-transform: uppercase;
-  margin-right: 3rem;
+  margin-right: 2rem;
   display: inline-block;
   vertical-align: middle;
 }
 
 .header-auth__item a:hover {
-  border-bottom: medium none;
+  border-bottom: 1px solid;
 }
 
 .header-auth__item:last-child {
