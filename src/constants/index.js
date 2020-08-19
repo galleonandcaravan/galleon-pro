@@ -20,6 +20,6 @@ export const PAGES_IMAGES = {
 };
 
 export const HEADER_AUTH_LINKS = {
-  REGISTER: 'http://galcarlite.paydirect.io/registrations/corporates',
-  LOGIN: 'http://galcarlite.paydirect.io/',
+  REGISTER: 'https://apply.ebury.com/sfdc/servlet/SmartForm.html?formCode=currency-services&brand=GLR',
+  LOGIN: 'https://ogalcar.ebury.com/',
 };
