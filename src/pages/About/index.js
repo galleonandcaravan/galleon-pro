@@ -9,7 +9,7 @@ const About = ({ switcherImagesVisible }) => (
   <div className="about" id="page-about">
     <MainContent
       title="We are <br /><b>GC Pro</b>"
-      text="GCPro FX services are provided by Ebury Partners <br class='desktop' />UK Limited, a member of Santander Group. <br class='desktop' />Utilising their banking pedigree, our PRO clients <br class='desktop' />are able to transact in more complex hedging <br class='desktop' />products as well as a vast array of exotic <br class='desktop' />currencies."
+      text="GC Pro's FX services are provided by Ebury Partners <br class='desktop' />UK Limited, a member of Santander Group. <br class='desktop' />Utilising their banking pedigree, our Pro clients <br class='desktop' />are able to transact in more complex hedging <br class='desktop' />products as well as a vast array of exotic <br class='desktop' />currencies."
     />
     <ImagesSwitcher
       imageTop={PAGES_IMAGES.ABOUT.TOP}

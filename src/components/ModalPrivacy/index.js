@@ -71,7 +71,7 @@ class ModalPrivacy extends Component {
                 <span className="modal-privacy__title">Security</span>
 
                 <span className="modal-privacy__text">
-                  Galleon and Caravan take security and compliance seriously. Our payment providers have invested heavily into maintaining the strictest levels of security throughout their infrastructure.
+                  GC Pro take security and compliance seriously. Our payment providers have invested heavily into maintaining the strictest levels of security throughout their infrastructure.
                   <br /><br /><br />
 
                   We chose to partner with Ebury Partners UK Limited because they are one of the best funded FinTech firms in Europe, having received over $83m in investment to accelerate growth and innovation. They offer deep levels of liquidity, seamless operational capabilities and strict security measures, ensuring a safe and reliable service.

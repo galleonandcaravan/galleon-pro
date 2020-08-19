@@ -31,10 +31,12 @@ class Footer extends Component {
         </ul>
 
         <div className="footer-copyright">
-          Galleon & Caravan, GC Lite & GC Pro are trading names of
-          Galcar Limited, a company registered in England & Wales
-          (no. 11656491) and whose registered office is at Unit 15, 1
-          Bramshaw Road, London, E9 5BF.
+          Galcar Limited (t/a GC Pro) is a company registered in England
+          and Wales (registered no. 11656491). GC Pro's Payment and Foreign
+          Currency Exchange Services are provided by Ebury Partners UK Limited.
+          Ebury Partners UK Limited is Authorised and Regulated by the
+          Financial Conduct Authority as an Electronic Money Institution
+          (Financial Services Register No. 900797).
         </div>
       </div>
     );
