@@ -31,12 +31,10 @@ class Footer extends Component {
         </ul>
 
         <div className="footer-copyright">
-          Galcar Limited (t/a GC Pro) is a company registered in England
-          and Wales (registered no. 11656491). GC Pro's Payment and Foreign
-          Currency Exchange Services are provided by Ebury Partners UK Limited.
-          Ebury Partners UK Limited is Authorised and Regulated by the
-          Financial Conduct Authority as an Electronic Money Institution
-          (Financial Services Register No. 900797).
+          Galcar Limited (t/a GC Pro) is a company registered in England and Wales (registered no. 11656491). 
+          GC Pro’s Payment and Foreign Currency Exchange Services are provided by Ebury Partners UK Limited. 
+          GC Pro is partnered with Ebury Partners UK Limited as a Programme Manager. 
+          Ebury Partners UK Limited is authorised and regulated by the Financial Conduct Authority as an Electronic Money Institution (Financial Services Register No. 900797).
         </div>
       </div>
     );
